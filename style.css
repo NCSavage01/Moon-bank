@@ -1,0 +1,69 @@
+* {
+    /* border: solid 2px whitesmoke; */
+    background-image: url(https://images.alphacoders.com/123/1232066.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: pink;
+  }
+  
+  body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #title {
+    height: 15%;
+    text-align: center;
+    font-size: xx-large;
+    display: grid;
+  }
+  
+  #title-word {
+      display:grid;
+      place-items: center;
+  }
+  
+  
+  #control {
+    height: 15%;
+    text-align: center;
+    display: grid;
+      place-items: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* position: relative;  */
+    height: 80%;
+    width: 100%;
+  }
+  
+  #Questions {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  
+    height: 90%;
+    width: 60%;
+  }
+  
+  [id^="choice"]{
+      height: 35px;
+  
+  }
+  
+  #Score {
+    display: flex;
+    /* position: absolute; */
+    height: 40%;
+    width: 15%;
+    float: right; 
+  }
+  .imageURL{
+      height: 5%;
+  }
+  
