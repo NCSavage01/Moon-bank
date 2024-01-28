@@ -1,69 +1,21 @@
-* {
-    /* border: solid 2px whitesmoke; */
-    background-image: url(https://images.alphacoders.com/123/1232066.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: pink;
-  }
-  
-  body {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
-  
-  #title {
-    height: 15%;
-    text-align: center;
-    font-size: xx-large;
-    display: grid;
-  }
-  
-  #title-word {
-      display:grid;
-      place-items: center;
-  }
-  
-  
-  #control {
-    height: 15%;
-    text-align: center;
-    display: grid;
-      place-items: center;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* position: relative;  */
-    height: 80%;
-    width: 100%;
-  }
-  
-  #Questions {
-    display: flex;
-    /* position: absolute; */
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-  
-    height: 90%;
-    width: 60%;
-  }
-  
-  [id^="choice"]{
-      height: 35px;
-  
-  }
-  
-  #Score {
-    display: flex;
-    /* position: absolute; */
-    height: 40%;
-    width: 15%;
-    float: right; 
-  }
-  .imageURL{
-      height: 5%;
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(https://images.alphacoders.com/123/1232066.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+/* ... (rest of your CSS code) */
