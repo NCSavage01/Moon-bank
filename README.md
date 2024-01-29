@@ -1,4 +1,6 @@
-Moon Banking
+Moon Bank
+
+We created this banking application to challege our knowledge. The purpose of a banking application is to help customers access a easy online banking application.
 Functions:
 - Create Username and pin
 - Showbalnce with options to deposit,withdraw, (possibly transfer)
