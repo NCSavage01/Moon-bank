@@ -70,7 +70,7 @@ app.post("/login", async (req, res) => {
 
 
 // Define Port for Application
-const port = 5500;
+const port = 27017;
 app.listen(port, () => {
-    console.log(`Server listening on port $27017`)
+    console.log(`Server listening on port:27017`)
 });

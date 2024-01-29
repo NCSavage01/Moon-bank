@@ -19,11 +19,11 @@ export const fundUserBalance = async (req, res) => {
     await user.save();
 
     res.status(200).json({
-      message: `🟢 Your transaction of ${amount} was successful!`,
+      message: `Your transaction of ${amount} was successful!`,
     });
   } catch (err) {
     res.status(400).json({
-      message: `🔴 Your transaction of ${amount} was declined!`,
+      message: ` Your transaction of ${amount} was declined!`,
     });
   }
 };
@@ -75,21 +75,21 @@ export const transferFund = async (req, res) => {
       sender_walletId: senderId,
       receiver_walletId: receiverId,
       amount,
-      message: `🟢 Successful`,
+      message: ` Successful`,
     });
 
     try {
       res.status(200).json({
-        message: `🟢 Successful`,
+        message: ` Successful`,
       });
     } catch (err) {
       res.status(200).json({
-        message: `🔴 Declined`,
+        message: ` Declined`,
       });
     }
   } else {
     res.status(400).json({
-      message: "🔴 You don't have enough funds to complete this transaction ",
+      message: " You don't have enough funds to complete this transaction ",
     });
   }
 };
