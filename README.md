@@ -11,4 +11,4 @@ We used the following softwares to make the project.
 
  The link to the github: https://github.com/NCSavage01/Moon-bank.git
 
- THe link to the Depoly: 
+ THe link to the Depoly: https://ncsavage01.github.io/Moon-bank/
